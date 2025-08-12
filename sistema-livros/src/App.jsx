@@ -2,7 +2,9 @@ import './App.css'
 import 'primereact/resources/themes/lara-light-blue/theme.css'; 
 import 'primereact/resources/primereact.min.css';               
 import 'primeicons/primeicons.css';                             
-import 'primeflex/primeflex.css';   
+import 'primeflex/primeflex.css';
+import AppRoutes from './routes';
+import React from 'react';    
 
 function App() {
   
@@ -10,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-       <h1>Projeto aluguel de livros!</h1>
+       <AppRoutes />
       </div>
       
     </>
